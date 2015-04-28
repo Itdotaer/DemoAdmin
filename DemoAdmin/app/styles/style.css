@@ -1,0 +1,101 @@
+﻿body {
+    font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
+    font-size: 12px;
+    color: #333;
+}
+.menuLi {
+    padding: 0 0 0 10px;
+}
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    height: 40px; 
+    background-color: #f8f8f8; 
+    border-top: 1px solid #eee; 
+    width: 100%;
+    margin-left: -30px;
+    display: block;
+}
+
+.loginFormLabel {
+    font-size: 16px;
+    color: #999;
+    padding-right: 0;
+}
+
+.help-inline {
+    padding-top: 7px;
+    padding-left: 0;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("/app/images/icon.png");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: 100px 100px;
+}
+
+.icon-ok {
+    background-position: -60px -161px;
+    height: 13px;
+    width: 13px;
+}
+
+.icon-error {
+    background-position: -30px -161px;
+    height: 13px;
+    width: 13px;
+}
+
+.login-wrap {
+    height: 540px;
+    background: url(https://static.lufaxcdn.com/config/images/p2p_index/login_bg.png) repeat-x;
+}
+
+.login-header {
+    height: 88px;
+}
+
+.login-footer {
+    padding: 30px 0 40px;
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+}
+
+.headline, .header .headline {
+  font-size: 18px;
+  color: #666;
+  float: left;
+  margin: 24px 0 0 10px;
+}
+
+span.page-name {
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.headNav {
+    float: right;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.headNav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.li-active {
+    background-color: red;
+}
+
+.panel-title {
+    font-size: 20px;
+    position: absolute;
+    padding: 0 0 0 10px;
+}
