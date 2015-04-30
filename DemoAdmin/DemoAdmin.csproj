@@ -59,6 +59,16 @@
   <ItemGroup>
     <Content Include="app\images\GitHub_Logo.png" />
     <Content Include="app\images\icon.png" />
+    <Content Include="app\scripts\controllers\user\loginCtrl.js" />
+    <Content Include="app\scripts\controllers\user\logoutCtrl.js" />
+    <Content Include="app\scripts\controllers\wordViewerCtrl.js" />
+    <Content Include="app\scripts\directives\header\header.html" />
+    <Content Include="app\scripts\directives\header\header.js" />
+    <Content Include="app\scripts\directives\header\headerCtrl.js" />
+    <Content Include="app\scripts\directives\siderMenu\siderMenuCtrl.js" />
+    <Content Include="app\scripts\directives\siderMenu\siderMenu.html" />
+    <Content Include="app\scripts\directives\directivesModule.js" />
+    <Content Include="app\scripts\directives\siderMenu\siderMenu.js" />
     <Content Include="app\scripts\vendor\angularJS\angular-1.4.0-beta.6\angular-animate.min.js.map" />
     <Content Include="app\scripts\vendor\angularJS\angular-1.4.0-beta.6\angular-aria.min.js.map" />
     <Content Include="app\scripts\vendor\angularJS\angular-1.4.0-beta.6\angular-cookies.min.js.map" />
@@ -909,6 +919,7 @@
     <Content Include="app\views\project\projectSteps\stepOne.html" />
     <Content Include="app\views\table\table.html" />
     <Content Include="app\views\user\login.html" />
+    <Content Include="app\views\wordViewer\word.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -916,7 +927,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\scripts\directives\" />
     <Folder Include="app\scripts\filters\" />
   </ItemGroup>
   <PropertyGroup>

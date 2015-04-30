@@ -1,7 +1,7 @@
 ﻿(function() {
     'use sctrict';
 
-    var app = angular.module('app', ['ui.router', 'ngCookies', 'angular-md5', 'services']);
+    var app = angular.module('app', ['ui.router', 'ngCookies', 'angular-md5', 'services', 'directives']);
 
     router.$inject = ['$stateProvider', '$urlRouterProvider'];
     routeChanged.$inject = ['$cookies', '$state', '$rootScope', '$location'];
@@ -41,6 +41,12 @@
             .state('index.table', {
                 url: '/table',
                 templateUrl: '/app/views/table/table.html'
+            })
+            .state('index.wordViewer', {
+                url: '/wordViewer',
+                templateUrl: '/app/views/wordViewer/word.html',
+                controller: 'wordViewerController',
+                controllerAs: 'vm'
             })
             .state('login', {
                 url: '/login',

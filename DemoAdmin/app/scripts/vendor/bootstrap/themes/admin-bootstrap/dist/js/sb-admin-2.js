@@ -1,8 +1,3 @@
-$(function () {
-    //Load metisMenu
-    $('#sideMenu').metisMenu();
-});
-
 //Set the page height.And resize window.
 $(function () {
     function setPageWrapper() {
